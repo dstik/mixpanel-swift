@@ -38,6 +38,7 @@ class Flush: AppLifecycle {
             flushIntervalReadWriteLock.sync {
                 return _flushInterval
             }
+            return _flushInterval
         }
     }
 
